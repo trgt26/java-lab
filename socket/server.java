@@ -19,9 +19,9 @@ public class server {
             while(true) {
 
                 Double rad = dis.readDouble();
-                
+                // dos.
                 Double res = 3.1416*rad*rad;
-    
+                System.out.println(res);
                 dos.writeDouble(res);
             }
     

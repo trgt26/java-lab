@@ -1,3 +1,4 @@
+package gui.p_7;
 // package assignment_3.p_7;
 import java.awt.Color;
 import java.awt.FlowLayout;

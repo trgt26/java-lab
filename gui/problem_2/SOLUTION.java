@@ -1,3 +1,4 @@
+package gui.problem_2;
 import javax.swing.JFrame;
 
 public class SOLUTION {

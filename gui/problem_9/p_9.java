@@ -1,3 +1,4 @@
+package gui.problem_9;
 // package assignment_3.problem_9;
 
 import javax.swing.JFrame;
