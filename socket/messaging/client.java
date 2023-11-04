@@ -18,13 +18,13 @@ public class client {
     
             Scanner sc = new Scanner(System.in);
             while(true) {
-                
-                Double rad = sc.nextDouble();
 
-                dos.writeDouble(rad);
+                String s = sc.nextLine();
+
+                dos.writeUTF(s);
                 
-                Double res = dis.readDouble();
-                System.out.println(res);
+                s = dis.readUTF();
+                System.out.println(s);
             }
         } catch(Exception e) {
             e.printStackTrace();
